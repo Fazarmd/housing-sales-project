@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div className="flex flex-col justify-center text-center px-4 my-32 ">
       <h2 className="text-4xl font-bold mb-8">About Us</h2>
-      <div className="grid lg:grid-cols-2 gap-4 items-center px-4 lg:px-32">
+      <div className="grid lg:grid-cols-2 gap-4 items-center px-4 sm:px-32">
         <img className="w-full h-full p-2 m-auto" src={about} alt="/" />
         <p className="text-lg px-4 sm:px-0 text-justify">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque repellendus, quis deleniti earum ipsa placeat a laborum numquam alias tenetur ad sint voluptatum illo dicta mollitia. Blanditiis consectetur sed ad. Odio quidem
